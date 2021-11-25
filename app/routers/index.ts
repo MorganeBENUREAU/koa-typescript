@@ -1,11 +1,14 @@
-const koaRouter = require('@koa/router');
+const Router = require('@koa/router');
+const koaRouter = new Router();
 
-const router = koaRouter();
+const errorController = require('../controllers/404');
+const generatorController = require('../controllers/generator');
 
-const { errorCont, generatorCont } = require('../controllers');
+koaRouter.get('/', (ctx: any) => {ctx.body = 'kikou'});
 
-router.get('/generator', generatorCont.generate);
+koaRouter.get('/generate', generatorController.generate);
 
-router.use(errorCont.notFoundResource);
+koaRouter.use(errorController.notFoundResource);
 
-module.exports = router;
+
+module.exports = koaRouter;

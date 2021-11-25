@@ -1,7 +1,7 @@
 const generator = {
 
-    generate() {
-       console.log("coucou");
+    generate (ctx: any) {
+       ctx.body = 'holaaaaa';
     }
 
 };

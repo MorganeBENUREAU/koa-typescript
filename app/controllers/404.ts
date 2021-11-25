@@ -1,7 +1,7 @@
 module.exports = {
 
-    notFoundResource(_, response) {
-        response.status(404).json({ data: [], error: `Resource not found` });
+    notFoundResource(ctx: any) {
+        ctx.status = 404;
+        ctx.body = { data: [], error: `Resource not found` };
     }
-
 };
