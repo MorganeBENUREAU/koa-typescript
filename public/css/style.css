@@ -1,0 +1,23 @@
+body {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+button {
+    padding: 0.2rem 0.5rem;
+    font-size: 1rem;
+}

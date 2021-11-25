@@ -1,34 +1,32 @@
-{
-    "data" : [
-        {
-            "disney movie title" : "Mulan"
-        },
-        {
-            "disney movie title" : "La reine des neiges"
-        },
-        {
-            "disney movie title" : "Raiponse"
-        },
-        {
-            "disney movie title" : "La princesse et la grenouille"
-        },
-        {
-            "disney movie title" : "Zootopie"
-        },
-        {
-            "disney movie title" : "Vaiana"
-        },
-        {
-            "disney movie title" : "Raya et le dernier dragon"
-        },
-        {
-            "disney movie title" : "Princesse malgré elle"
-        },
-        {
-            "disney movie title" : "Star wars (l'intégrale)"
-        },
-        {
-            "disney movie title" : "Narnia (l'intégrale)"
-        }
-    ]
-}
+[
+    {
+        "disney_movie_title" : "Mulan"
+    },
+    {
+        "disney_movie_title" : "La reine des neiges"
+    },
+    {
+        "disney_movie_title" : "Raiponse"
+    },
+    {
+        "disney_movie_title" : "La princesse et la grenouille"
+    },
+    {
+        "disney_movie_title" : "Zootopie"
+    },
+    {
+        "disney_movie_title" : "Vaiana"
+    },
+    {
+        "disney_movie_title" : "Raya et le dernier dragon"
+    },
+    {
+        "disney_movie_title" : "Princesse malgré elle"
+    },
+    {
+        "disney_movie_title" : "Star wars (l'intégrale)"
+    },
+    {
+        "disney_movie_title" : "Narnia (l'intégrale)"
+    }
+]
